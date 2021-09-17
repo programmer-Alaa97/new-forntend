@@ -59,6 +59,7 @@ line-height: 30px;
 font-size: 16px;
 font-family:Dubai;
 padding-top: 40px;
+text-align: justify;
 }
 
 
@@ -241,6 +242,142 @@ border-width: 1px;
 }
 
 /* helth15-end */
+
+
+/* helth15-start */
+
+.helth-card1{
+
+    width: 740px;
+    border-color: #833471;
+    border-style: solid;
+    padding: 40px 40px 20px 40px;
+    background-color: #FBFAFA;
+    margin-left: 100px;
+
+}
+
+.helth-card2{
+
+    width: 400px;
+    border-color: #833471;
+    border-style: solid;
+    padding: 0px 0px 60px 0px;
+    background-color: #FDEFEF;
+    margin-right: 0px;
+   
+}
+
+.helth-card3{
+
+    width: 400px;
+    border-color: #833471;
+    border-style: solid;
+    background-color: #FDEFEF;
+    margin-right: 0px;
+   
+}
+
+/* helth15-end */
+
+
+
+/* helth19-start */
+.helth-card4{
+
+    width: 800px;
+    border-color: #4671C6;
+    border-style: solid;
+    padding: 100px 40px 100px 40px;
+    background-color: #FEFAFB;
+  
+
+}
+
+.helth-card5{
+
+    width: 340px;
+    border-color: #4671C6;
+    border-style: solid;
+    padding: 40px 200px 44px 20px;
+    background-color: #FEFAFB;
+  
+
+}
+/* helth19-end */
+
+
+
+
+/* helth20-21-22-start */
+
+.style-bg1{
+
+    border-style: solid; 
+    background-color: #FEFAFB;
+    border-color: #707070;
+    width: 240px;
+    border-width: 1px; 
+    color: #E76E6E;
+    text-align: center;
+    border-radius: 36px;
+    padding: 14px 20px 12px 20px;
+}
+
+.style-bg2{
+
+    border-style: solid; 
+    background-color: #FEFAFB;
+    border-color: #707070;
+    width: 400px;
+    border-width: 1px; 
+    color: #3A2C60;
+    text-align: center;
+    border-radius: 36px;
+    padding: 14px 20px 12px 20px;
+}
+
+.style-bg3{
+
+    border-style: solid; 
+    background-color: #FFFFFF;
+    border-color: #F2B6B5;
+    width: 300px;
+    border-width: 1px; 
+    color: #3A2C60;
+    text-align: center;
+    border-radius: 36px;
+    padding: 14px 20px 12px 20px;
+}
+
+
+.style-bg-helth22{
+    border-style: solid; 
+    background-color: #2699FB;
+    border-color: #707070;
+    width: 300px;
+    border-width: 1px; 
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 36px;
+    padding: 14px 20px 12px 20px;  
+    margin: 10px 400px 40px 0px;
+}
+/* helth20-21-22-end */
+
+/* login-start */
+
+.border-login{
+    border-radius:10 ;
+    border-color:#FF8D8D ;
+    background-color: white;
+    border-style: solid;
+    width: 1000px;
+    height: 600px;
+
+
+}
+/* login-end */
 
 /* footer start */
 footer{
