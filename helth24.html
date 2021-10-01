@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Adding Dropdowns in Bootstrap 4 via Data Attributes</title>
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"> -->
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
@@ -12,14 +12,14 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 <style>
-	.bs-example{
-    	margin: 50px;
-    }
+	 .bs-example{
+    margin: 50px;
+  }
 </style>
 </head>
 <body>
 
-
+ 
 <nav class="navbar navbar-expand-lg navbar-light bg-light1 fixed-top">
     <a class="navbar-brand buttcolor" href="index.html"><i class="fas fa-home" style="margin-right: 10px;"></i>Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -86,48 +86,67 @@
   </nav>
 
 
+<section>
 
-<section >
+  <div class="container">
     
-    <div class="container" style="margin:80px 0px 80px 170px ;">
-        
-        <div class="row">
-            <div class="col-sm-2">   
-                 <img src="img/d33.png"  width="260px" style="margin: 400px 0 0 100px ;">
-                 <a type="button" class="btn btn1" href="helth19.html" style=" margin: 40px 80px 0 0;"><i class="fa fa-arrow-left" style="padding-right: 10px;" ></i>المزيد</a>
+ 
 
-            </div>
+     <div class="row" style="margin: 100px 0 0 0 ;"  >
+         <div class="col-lg-6 col-sm-12">
+ 
+            <div class="card" style="width: 34.8rem;  border-color:#25CCF7 ;">
+                <img src="img/d46.png" class="card-img-top" style="margin-left: 0px;" >
+                <div class="card-body">
+                    <h6 dir="rtl" class="text-style2 mt-4" style="color: #25CCF7;">علاج الحصبة</h6>
+                  <p class="card-text text-style2 " dir="rtl" style="padding: 20px;">لا يوجد علاج يساعد في التخلّص من داء الحصبة عندما يكون داء الحصبة في مرحلته الفعّالة.
+                       لكن، بالإمكان إعطاء الرضع غير الملقحين ضد الفيروس اللقاح (Vaccine)
+                       بعد نحو 72 ساعة تقريبا من التعرض إلى الفيروس، بغية تزويدهم بالمناعة الضرورية ضد الفيروس.
+                    </p>
+                      <p class="card-text text-style2 " dir="rtl" style="padding: 20px;"> النساء الحوامل، 
+                       الأطفال والأشخاص ذوو جهاز المناعة الضعيف الذين تعرضوا لفيروس الحصبة يمكنهم أن يحصلوا على حُقن البروتينات (الأضداد - Antibodies) التي قد تساعد في محاربة الفيروس. اللقاح يدعى مصل مناعي على أساس الغلوبولين (Globulin). هذه الحقنة تعطى على مدار 6 أيام من لحظة التعرض إلى فيروس الحصبة، إذ تستطيع هذه الأضداد أن تساعد في منع الإصابة بداء الحصبة أو تخفف من حدة الأعراض المرافقة لداء الحصبة.
+                    </p>
+            <p class="card-text text-style2 " dir="rtl" style="padding: 20px;">   ولأن داء الحصبة معدٍ جدا، فإن عزل المصاب به يمكن أن يشكل إجراء علاجيا إضافيا في مواجهة داء الحصبة، إذ يتم عزل المريض لمدة تمتد من 4 أيام قبل ظهور الطفح وحتى 4 أيام بعد ظهوره، 
+                كما يفضل أن لا يعمل المصابون بالحصبة قرب أشخاص آخرين خلال هذه المدة الزمنية.  </p>
+                </div>
+              </div>
+         </div>
 
-          <div class="col-sm-9 ">
-      
-         <h4 dir="rtl" style="padding: 70px 30px 0 0 ; color: #EA2027;">أعراض الإصابة بالتهاب الغدة الدرقية</h4>
-         <p class="text-style2" dir="rtl"style="padding-top: 40px;">هناك العديد من الأشخاص المصابين بالمرض ولا يكتشفون إصابتهم لسنوات عديدة فقد لا ترتبط الإصابة بالتهاب الغدة الدرقية بظهور أعراض مميزة في كثير من الأحيان، وقد يبقى كذلك لعدة سنوات كما أن أعراض الإصابة بالمرض، مشابهة لأمراض أخرى، لذا يصعب تمييزها وحتى تشخيصها.مع تقدم المرض وتطوره، من الممكن أن يلاحظ المصاب الأعراض التالية:
-        </p>
-        <ul class=" text-style2" dir="rtl" style=" list-style-type: none;">
-            <li style="padding-bottom:6px ;">التعب</li>
-            <li style="padding-bottom:6px ;">النعاس والكسل</li>
-            <li style="padding-bottom:6px ;">زيادة في الوزن</li>
-            <li style="padding-bottom:6px ;">الإمساك</li>
-            <li style="padding-bottom:6px ;">جفاف وشحوب البشرة</li>
-            <li style="padding-bottom:6px ;">انتفاخ الوجه</li>
-            <li style="padding-bottom:6px ;">ضعف الأظافر وتكسرها</li>
-            <li style="padding-bottom:6px ;">ترقق الشعر</li>
-            <li style="padding-bottom:6px ;">يصبح صوتك أجش وغليظ</li>
-            <li style="padding-bottom:6px ;">ضعف عضلات القسم السفلي من الجسم</li>
-            <li style="padding-bottom:6px ;">الحساسية الزائدة للبرد</li>
-            <li style="padding-bottom:6px ;">تضخم الغدة الدرقية</li>
+         <div class="col-lg-6 col-sm-12">
 
-        </ul>
-          </div>
-        
-          <div class="col-sm-1"> <img src="img/d32.png" style="margin:80px 0 0 0;" width="11px;"></div>
-         
-          
-        </div>
-        </div>
+            <div class="card" style="width: 34.8rem; border-color:#F9D951 ;">
+                <img src="img/d47.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 dir="rtl" class="text-style2 mt-4" style="color: #F9D951;">الوقاية من الحصبة</h6>
+                  <p class="card-text text-style2 " dir="rtl" style="padding: 20px;">التطعيم ضد داء الحصبة يعطى، بشكل عام،
+                       كلقاح مدمج في "تطعيم ثلاثي" (MMR) يشمل، 
+                       أيضا، لقاحين ضد مرضيّ الحصبة الألمانية / الحُمَيْراء (Rubella) والنكاف (Mumps).
+                  </p>
+                  <p class="card-text text-style2 " dir="rtl" style="padding: 10px 20px 10px 20px;"> هذا اللقاح مكوّن من التركيبة الأكثر فعّالية ومأمونية لكل واحد من هذه التطعيمات. يتم إنتاج اللقاح عن طريق تناول الفيروس المسؤول عن نشوء مرض الحصبة من حنجرة شخص مصاب بداء الحصبة، 
+                   وجعله يتكاثر في خلايا جنين الدجاج في المختبر.
+                  </p>   
+                  <p class="card-text text-style2 " dir="rtl" style="padding: 10px 20px 10px 10px;">    عندما يُعطى فيروس الحصبة المجدد لطفل في إطار التطعيم الثلاثي MMR، 
+                      فإنه يتكاثر مسببا عدوى غير ضارة، حتى قبل أن يحاول الجهاز المناعي القضاء عليه.
+                    هذه العدوى غير الضارة تؤدي إلى تكوين مناعة ضد فيروس الحصبة لدى 95% من الأطفال لمدى الحياة.
+                  </p>     
+                 <p class="card-text text-style2 " dir="rtl" style="padding: 15px 20px 10px 10px;">  ولكن، من المفضل إعطاء وجبة ثانية للقاح مرّة ثانية لكي يتم تطعيم الآخرين (الـ 5%) الذين لم يكوّنوا مناعة في التطعيم الأول،
+                 ولتحفيز جهاز المناعة ضد داء الحصبة لدى الـ 95% الآخرين.</p>
+                </div>
+              </div>
+         </div>
+     </div>
+       
+
+      </div>
+
+    </div>
+
 </section>
 
 
+
+
+  
 
 <footer dir="">
   <div class="container">
@@ -159,5 +178,5 @@
             </div>
             
          </footer>
-  </body>
-  </html>
+</body>
+</html>
