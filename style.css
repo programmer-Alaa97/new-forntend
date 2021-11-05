@@ -157,13 +157,34 @@ text-align: justify;
 
 .my-dev-helth2{
 
-     margin-right: 80px;
-     width:350px;
-     border-style: hidden hidden solid hidden;
-     border-width: 2px;
-     padding: 6px 0px 40px 0px;
+    margin-right: 80px;
+    width: 397px;
+    border-style: hidden hidden solid hidden;
+    border-width: 2px;
+    padding: 6px 22px 40px 23px;
   
 }
+
+.my-div1-helth2{
+    margin-right: 70px;
+    width: 400px;
+    margin-top: 19px;
+    }
+
+
+.my-div-food{
+
+    margin: 30px 90px 0 0;
+    width: 397px;
+
+}
+
+.img-helth2{
+
+     width: 300px;
+     margin: 100px 130px 0px 0px; 
+}
+
 
 .mydiv-helth1{
 
@@ -1125,24 +1146,46 @@ text-align: justify;
 
 .border-helth2 {
 
-    margin:130px 0px 130px 100px;
+    margin:130px 0px 60px 25px;
     box-shadow:1px;
     border-color: black;
     border-width: 1px; 
     border-style: solid;
     padding: 0 0px 40px 40px;
     box-shadow:3px 3px rgba(143, 138, 138, 0.596);
+    width: 300px;
 }
 
 .my-dev-helth2{
 
-     margin-right: 80px;
-     width:350px;
-     border-style: hidden hidden solid hidden;
-     border-width: 2px;
-     padding: 6px 0px 40px 0px;
+    margin-right: 40px;
+    width: 220px;
+    border-style: hidden hidden solid hidden;
+    border-width: 2px;
+    padding: 6px 0px 40px 0px;
   
 }
+
+.my-div1-helth2{
+    margin-right: 40px;
+    width: 220px;
+    margin-top: 19px;
+    }
+
+
+.my-div-food{
+
+    margin: 30px 40px 0 0;
+    width: 220px;
+
+}
+
+.img-helth2{
+
+     width: 200px;
+     margin: 100px 40px 0px 0px; 
+}
+
 
 .mydiv-helth1{
 
@@ -1538,15 +1581,22 @@ text-align: justify;
 
     width:40px;
     margin: 80px 0px 0px 230px;
+    display: none;
 }
 
 .img2-helth15{
 
-    width:40px;
-    margin: 0px 10px 0px 0px;
+    width:200px;
+    margin: 22px 10px 46px 50px;
 
 }
 
+.h5-helth15{
+
+    font-weight: bold;
+    font-size: 17px;
+    
+}
 .border-body1 {
     margin: 100px 0px  0px 15px;
     border-style: solid;
@@ -1640,7 +1690,7 @@ text-align: justify;
     border-width: 6px;
     border-color:#EA2027 ;
     margin: 180px 10px 40px 0px; 
-    padding: 0px 30px 0 0 ;
+    padding: 0px 30px 0 32px ;
 }
 
 .section-helth19{
@@ -1892,6 +1942,7 @@ text-align: justify;
     padding:60px 20px 60px 20px;
     box-shadow: 2px 2px 2px 2px #FF8D8D;
     margin-left: 150px;
+  
 
 }
 
@@ -1904,7 +1955,7 @@ text-align: justify;
 /* footer start */
 footer{
     
-    margin-top: 12px;
+    margin-top: 37px;
     width: 100%;
     background: #1E272E;
     color: white;
