@@ -15,6 +15,24 @@ body{
     
 }
 
+.navbar-light .navbar-toggler {
+    color: rgb(250, 249, 249);
+    border-color:white;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
 .nav-link-new {
     color: white;
 }
@@ -1025,6 +1043,21 @@ body{
     color: white;
 }
 
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 10px;
+    list-style: none;
+    width: 143px;
+    text-align: center;
+    padding-left: 126px;
+}
+
+dl, ol, ul {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
 .navbar-light .navbar-brand {
     color: white;
 }
@@ -1053,7 +1086,10 @@ body{
     line-height: 40px;
     font-size: 16px;
     text-decoration: none;
-    margin-left: 60px;
+    margin-left: 46px;
+    width: 139px;
+    text-align: center;
+
     
     
 }
@@ -1061,6 +1097,7 @@ body{
 .textstyle{
   
     text-align: right;
+    font-size: 14px;
 }
 
 
@@ -1847,6 +1884,7 @@ text-align: justify;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     width: 320px;
+    margin-bottom: 30px;
 }
 
 
@@ -1868,6 +1906,7 @@ text-align: justify;
     width:60px;
     padding: 20px 0px 20px 0px; 
     margin-left: 50px;
+    display: none;
 }
 
 
@@ -1876,6 +1915,7 @@ text-align: justify;
     width:60px;
     padding: 10px 0px 10px 0; 
     margin-left: 90px;
+    display: none;
 }
 
 
