@@ -1376,7 +1376,7 @@ text-align: justify;
     font-size: 12px;
     text-align: justify;
     border-width: 2px;
-    font-size: 14px;
+    font-size: 20px;
 }
 /* end */
 
@@ -1397,13 +1397,13 @@ text-align: justify;
 
 .btn-helth1{
   
-    margin:70px 0px 20px 140px;
+    margin:70px 0px 20px 130px;
 }
 .img-helth1{
 
     width: 240px; 
     padding-top: 140px;
-    margin-right: 72px;
+    margin-right: 55px;
 }
 .mar-p1{
    margin-right: 0px;
@@ -1418,7 +1418,7 @@ text-align: justify;
 
 .border-helth2 {
 
-    margin:130px 0px 60px 34px;
+    margin:88px 0px 60px 20px;
     box-shadow:1px;
     border-color: black;
     border-width: 1px; 
@@ -1487,12 +1487,12 @@ text-align: justify;
 .img3{
 
     width: 200px;
-    margin:0px 94px 20px 0px; 
+    margin:0px 74px 20px 0px; 
 }
 
 .btn-helth3{
 
-  margin: 60px 148px 40px 0px;
+  margin: 60px 130px 40px 0px;
 }
 .p-helth3{
 
@@ -1555,20 +1555,20 @@ text-align: justify;
 .img5{
 
     width: 140px;
-    margin:49px 67px 0px 0px ;
+    margin:49px 48px 0px 0px ;
 }
 
 .btn5{
 
-  margin: 20px 88px 20px 0px;
+  margin: 20px 70px 20px 0px;
 }
 .card-style{
     
     margin-top: 140px; 
     margin-bottom: 60px;
     padding: 30px;
-    width: 22rem;
-    margin-left: 20px;
+    width: 20rem;
+    margin-left: 13px;
     border-color: #F9D951; 
     border-width: 4px;
     box-shadow: 6px 6px 4px grey;
@@ -1604,7 +1604,7 @@ text-align: justify;
     border-color: #F9D951;
     width: 300px;
     padding-bottom: 20px;
-    margin: 0 46px 66px 0;
+    margin: 0 27px 66px 0;
 }
 
 
@@ -1628,7 +1628,7 @@ text-align: justify;
   width: 300px;
   border-color: #b0ecee; 
   border-radius:29px;
-  margin-right: 42px;
+  margin-right: 28px;
   margin-bottom: 40px;
   font-size: 13px;
 }
@@ -1637,7 +1637,7 @@ text-align: justify;
 .img-helth9{
 
     width:200px;
-    margin:60px 88px 0px 0px;
+    margin:60px 75px 0px 0px;
 }
     
 .bord-helth9{
@@ -1648,7 +1648,7 @@ text-align: justify;
     border-width:3px; 
     border-color: #F9D951; 
     padding: 40px 20px 10px 20px; 
-    margin:0 140px 30px 0;
+    margin:0 126px 30px 0;
 }
 
 .mr-top9{
@@ -1675,12 +1675,12 @@ text-align: justify;
 
     width: 200px; 
     height: 200px;
-    margin: 14px 0px 0 87px ; 
+    margin: 14px 0px 0 77px ; 
 }
 
 .btn-helth8{
     margin-top: 40px;
-    margin-left: 140px;
+    margin-left: 125px;
 }
 .bord-helth8{
 
@@ -1695,14 +1695,14 @@ text-align: justify;
 
 .style-card1{
 
-    width: 22.8rem;
+    width: 20.8rem;
     border-color:#25CCF7 ;
     margin-left: 11px;
   }
   
   .style-card2{
   
-      width: 22.8rem; 
+      width: 20.8rem; 
       border-color:#F9D951 ;
       margin: 14px 0 0 11px;
   }
@@ -1762,12 +1762,12 @@ text-align: justify;
 .img-helth121{
 
  width: 200px;
- margin:0 93px 0 0 ;
+ margin:0 75px 0 0 ;
 }
 
 .btn-helth121{
 
-    margin: 30px 0px 60px 144px;
+    margin: 30px 0px 60px 125px;
 }
 
 .style-h121{
@@ -1797,7 +1797,7 @@ text-align: justify;
         border-color: #707070; 
         border-radius:33px;
         margin-top: 142px;
-        margin-right: 20px;
+        margin-right: 8px;
         margin-bottom: 40px;
         color: white;
         border-width: 1px;
@@ -1875,7 +1875,7 @@ text-align: justify;
     margin: 100px 0px  0px 23px;
     border-style: solid;
     border-color:#F9D951;
-    width: 370px;
+    width: 330px;
     margin-bottom: 20px;
     border-width:4px;
     padding: 19px 0px 0px 0px;
@@ -1924,7 +1924,7 @@ text-align: justify;
 
 .helth-card1{
 
-    width: 370px;
+    width: 330px;
     border-color: #833471;
     border-style: solid;
     padding: 40px 40px 20px 40px;
@@ -1935,7 +1935,7 @@ text-align: justify;
 
 .helth-card2{
 
-    width: 370px;
+    width: 330px;
     border-color: #833471;
     border-style: solid;
     padding: 0px 0px 60px 0px;
@@ -1947,7 +1947,7 @@ text-align: justify;
 
 .helth-card3{
 
-    width: 370px;
+    width: 330px;
     border-color: #833471;
     border-style: solid;
     background-color: #FDEFEF;
@@ -1988,10 +1988,11 @@ text-align: justify;
 
 .helth-card4{
 
-    width: 353px;
+    width: 330px;
     border-color: #4671C6;
     border-style: solid;
     padding: 60px 40px 60px 40px;
+    margin-left: -6px;
     background-color: #FEFAFB;
  
   
@@ -2009,11 +2010,12 @@ text-align: justify;
 }
 .helth-card5{
 
-    width: 353px;
+    width: 330px;
     height: 240px;
     border-color: #4671C6;
     border-style: solid;
     padding: 40px 200px 44px 20px;
+    margin-left: -6px;
     background-color: #FEFAFB;
   
 
@@ -2075,7 +2077,7 @@ padding:0 14px 0 14px;
     text-align: center;
     border-radius: 36px;
     padding: 14px 20px 12px 20px;
-    margin-right: 25px;
+    margin-right: 7px;
 }
 
 .img1-helth21{
@@ -2115,7 +2117,7 @@ padding:0 14px 0 14px;
     text-align: center;
     border-radius: 36px;
     padding: 14px 20px 12px 20px;  
-    margin: 100px 40px 40px 0px;
+    margin: 100px 25px 40px 0px;
     font-family: Dubai;
 }
 
@@ -2145,7 +2147,7 @@ padding:0 14px 0 14px;
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
-    width: 368px;
+    width: 330 px;
     margin-bottom: 30px;
 }
 
@@ -2236,14 +2238,14 @@ padding:0 14px 0 14px;
 
 .signin{
     position: absolute;
-    top:50%;
-    left: 50%;
+    top:60%;
+    left: 47%;
     transform: translateX(-100%) translateY(-50%);
     border:1px solid  #FF8D8D ;
     border-radius: 10px;
     padding:60px 20px 60px 20px;
     box-shadow: 2px 2px 2px 2px #FF8D8D;
-    margin-left: 150px;
+    margin-left: 160px;
   
 
 }
