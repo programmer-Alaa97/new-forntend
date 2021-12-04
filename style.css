@@ -1373,9 +1373,10 @@ text-align: justify;
     color: #FF7979;
     background-color: white;
     border-radius: 4px;
-    text-align: justify;
+    text-align: center;
     border-width: 2px;
     font-size: 20px;
+    padding: 10px;
 }
 /* end */
 
