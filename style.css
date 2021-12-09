@@ -1376,7 +1376,8 @@ text-align: justify;
     text-align: center;
     border-width: 2px;
     font-size: 20px;
-    padding: 30px;
+    padding: 14px;
+    width: 135px;
 }
 /* end */
 
