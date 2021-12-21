@@ -204,75 +204,6 @@ body{
     margin: 0px;
 }
 
-/* .nav-btn{
-    border-style: solid;
-    width: 140px;
-    border-color: white;
-    padding: 10px 20px 10px 20px;
-    border-width: 1px;
-    border-radius: 6px;
-    
-}
-
-.navbar-light .navbar-toggler {
-    color: rgb(250, 249, 249);
-    border-color:white;
-}
-
-.navbar-nav {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-}
-
-dl, ol, ul {
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-
-.nav-link-new {
-    color: white;
-}
-
-.bg-light1{
-
-    background-color: #FF7979!important;
-    padding: 12px;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: white;
-}
-
-.navbar-light .navbar-brand {
-    color: white;
-}
-
-.dropdown-toggle a:hover{
-    color: #FF7979;
-} 
-.dropdown-menu a:hover{
-    background-color: #FF7979;
-}
-
-.dropdown-menu {
-    position: absolute;
-    z-index: 1000;
-    display: none;
-    min-width: 10rem;
-    padding: 0.5rem 0;
-    margin-top: 4px;
-    font-size: 1rem;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 0.25rem;
-} */
 
 .buttcolor{
 
@@ -467,6 +398,22 @@ text-align: justify;
 
   margin: 60px 40px 40px 0px;
 }
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    border-color: #FBEBAA;
+    border-width:4px; 
+    margin-top: 140px;
+}
+
 .p-helth3{
 
     text-align: center;
@@ -517,7 +464,11 @@ text-align: justify;
 
 .margin-helth4{
     margin-top: 40px;
+    font-size: 19px;
+    font-family: Dubai;
 }
+
+
 
 
 
@@ -682,6 +633,14 @@ text-align: justify;
 
 /* helth10,11 */
 
+.top-helth10{
+    margin-top:100px;
+}
+
+.li-helth10{
+
+    font-family: Dubai;
+}
 .img-helth10{
 
     width:300px;
@@ -886,7 +845,7 @@ text-align: justify;
     width: 400px;
     border-color: #833471;
     border-style: solid;
-    padding: 0px 0px 60px 0px;
+    padding: 0px 0px 64px 0px;
     background-color: #FDEFEF;
     margin-right: 0px;
    
@@ -902,7 +861,18 @@ text-align: justify;
    
 }
 
+.img-helth17{
 
+    width:280px;
+    padding:140px 60px 20px 0px;
+}
+
+.img1-helth17{
+
+    width:280px;
+    padding:120px 70px 172px 0px;
+    margin-right: 20px;
+}
 
 
 
@@ -1425,7 +1395,7 @@ text-align: justify;
 
 .btn-helth1{
   
-    margin:70px 0px 20px 130px;
+    margin:70px 0px 20px 117px;
 }
 .img-helth1{
 
@@ -1502,25 +1472,39 @@ text-align: justify;
 
 .img2-helth4{
 
-    width: 200px; 
-    margin: 0px 52px 0px 0px;
+    width: 175px; 
+    margin: 0px 85px 0px 0px;
 }
 
 .img1-helth4{
 
-    width: 200px;
-     margin: 0px 86px 20px 0px;
+    width: 175px;
+     margin: 0px 85px 20px 0px;
 }
 
 .img3{
 
     width: 200px;
-    margin:0px 74px 20px 0px; 
+    margin:0px 60px 20px 0px; 
 }
 
 .btn-helth3{
 
-  margin: 60px 130px 40px 0px;
+  margin: 50px 110px 50px 0px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    border-color: #FBEBAA;
+    border-width:4px; 
+    margin-top: 40px;
 }
 .p-helth3{
 
@@ -1528,6 +1512,7 @@ text-align: justify;
     color: black;
     margin:18px 0 18px 0;
     font-size: 20px; 
+    font-weight: 600;
 }
 
 .mar-1{
@@ -1540,6 +1525,8 @@ text-align: justify;
 .mar-top{
 
     margin-top: 30px;
+    font-size: 20px;
+    font-family: Dubai;
 }
 
 
@@ -1548,7 +1535,7 @@ text-align: justify;
     border-style:hidden hidden solid hidden; 
     border-width: 2px;
     border-color: rgb(90, 88, 88);
-    padding: 0 40px 40px 40px;
+    padding: 0 6px 40px 6px;
 
 }
 
@@ -1571,8 +1558,9 @@ text-align: justify;
 }
 
 .margin-helth4{
-    margin: 0px 13px 0 0;
-    padding: 0px 4px 0px 15px;
+    margin-top: 40px;
+    font-size: 19px;
+    font-family: Dubai;
 }
 
 
@@ -1583,21 +1571,21 @@ text-align: justify;
 .img5{
 
     width: 140px;
-    margin:49px 48px 0px 0px ;
+    margin:49px 65px 0px 0px ;
 }
 
 .btn5{
 
-  margin: 20px 70px 20px 0px;
+  margin: 20px 78px 20px 0px;
 }
 .card-style{
     
-    margin-top: 140px; 
+    margin-top: 80px;
     margin-bottom: 60px;
-    padding: 30px;
-    width: 20rem;
-    margin-left: 13px;
-    border-color: #F9D951; 
+    padding: 25px;
+    width: 21rem;
+    margin-left: 5px;
+    border-color: #F9D951;
     border-width: 4px;
     box-shadow: 6px 6px 4px grey;
     border-style: solid;
@@ -1609,18 +1597,18 @@ text-align: justify;
 
 .padd-helth6{
 
-    padding: 140px 10px 0px 10px;
+    padding: 95px 10px 0px 10px;
 }
 
 .img-helth6{
 
     width:400px;
-    margin:20px 0px 20px  20px;
+    margin:20px -10px 20px  0px;
 }
 
 .text-style-h6{
     line-height: 30px;
-    font-size: 14px;
+    font-size: 20px;
     font-family: Dubai;
     text-align: justify;
 }
@@ -1647,7 +1635,7 @@ text-align: justify;
 
 .btn-style7{
     
-    margin: 60px 140px 40px 0px;
+    margin: 60px 120px 40px 0px;
 }
 
 .style-bord{ 
@@ -1681,9 +1669,17 @@ text-align: justify;
 
 .mr-top9{
 
-    margin:120px  0px 60px 0px;
+    margin:60px  0px 60px 0px;
  }
- 
+
+ .p-helth9{
+ text-align: center;
+ margin: auto;
+ font-weight: 400;
+ font-size: 19px;
+ font-family: Dubai;
+ }
+
 .bord-helth7{
 
     border-style:hidden hidden  solid hidden ;
@@ -1691,7 +1687,7 @@ text-align: justify;
     border-width:4px; 
     border-color: #F9D951; 
     padding: 40px 20px 10px 20px; 
-    margin: 100px 0px 0px 0px;
+    margin: 45px 0px 0px 0px;
 
 
 }
@@ -1741,21 +1737,31 @@ text-align: justify;
 }
 
 /* helth10,11 */
+.top-helth10{
+    margin-top:30px;
+}
+
+.li-helth10{
+
+    font-family: Dubai;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
 .img-helth10{
 
     width:200px;
-    margin:60px 88px 0px 0px;
+    margin:60px 70px 0px 0px;
 }
 
 .img-helth11{
     width:200px;
-    margin-right: 94px;
+    margin-right: 75px;
     margin-top: 130px; 
 }
 
 .btn-helth10{
 
-    margin: 40px 136px 30px 0px;
+    margin: 40px 120px 30px 0px;
 }
 .bord-helth10{
 
@@ -1800,9 +1806,11 @@ text-align: justify;
 
 .style-h121{
 
-    color:#D32E5E; 
+    color: #D32E5E;
     text-align: center;
-    margin-top: 60px;
+    margin: 60px 0 20px 0;
+    font-size: 28px;
+    font-weight: 600;
 }
 
 .text-style3{
@@ -1813,42 +1821,43 @@ text-align: justify;
     margin: 20px 0px 20px 0px;
     }
 
-    .img-helth13{
+.img-helth13{
 
-        width:300px;
-        margin:40px 40px 0 0;
+    width:300px;
+    margin:0px 64px 0 0;
+}
+.style-bord1{ 
+    border-style: solid;
+    background-color: #D32E5E;
+    width: 340px;
+    border-color: #707070; 
+    border-radius:33px;
+    margin-top: 70px;
+    margin-right: 8px;
+    margin-bottom: 40px;
+    color: white;
+    border-width: 1px;
+    padding: 6px 6px 6px 6px;
     }
-    .style-bord1{ 
-        border-style: solid;
-        background-color: #D32E5E;
-        width: 340px;
-        border-color: #707070; 
-        border-radius:33px;
-        margin-top: 142px;
-        margin-right: 8px;
-        margin-bottom: 40px;
-        color: white;
-        border-width: 1px;
-        padding: 6px 6px 6px 6px;
-          }
+
+.text-style4{
+    line-height: 30px;
+    font-size: 20px;
+    font-family: Dubai;
+    text-align: justify;
+    text-align: center;
+    margin-top: 10px;
     
-    .text-style4{
-        line-height: 30px;
-        font-size: 20px;
-        font-family: Dubai;
-        text-align: justify;
-        text-align: center;
-        margin-top: 10px;
-      
+}
+
+
+.style-h2{
+
+    color:#D32E5E; 
+    margin:100px 10px 40px 0;
+    font-size: 25px;
+    font-weight: 600;
     }
-
-
-    .style-h2{
-
-        color:#D32E5E; 
-        font-size: 18px;
-        margin:100px 10px 40px 0;
-        }
 
 .border-div-12{
 
@@ -1861,17 +1870,24 @@ text-align: justify;
 .bord-121{
     
      border-style:hidden solid hidden hidden;
-     padding:0 30px 0 0;
+     padding:0 5px 0 0;
      border-color: #D32E5E;
 
 }
 
 
 /* helth14-15*/
+.h4-helth14{
+    font-family: Dubai;
+    font-weight: 600;
+    margin-bottom: 37px;
+    color: #ff797d;
+
+}
 .img-helth14{
 
     width:300px;
-    margin: 170px 0px 0px 0px;
+    margin: 70px 0px 0px 0px;
 }
 
 .btn-helth14{
@@ -1921,13 +1937,13 @@ text-align: justify;
 }
 .btn-helth16{
 
-    margin: 0px 140px 60px 0px ;
+    margin: 0px 113px 60px 0px ;
  }
 
 .img-helth16{
 
     width: 200px; 
-    margin: 0px 94px 0px 0px;
+    margin: 0px 66px 0px 0px;
 }
 .border-helth16{
 
@@ -1964,9 +1980,9 @@ text-align: justify;
 .helth-card2{
 
     width: 330px;
+    height: 300px;
     border-color: #833471;
     border-style: solid;
-    padding: 0px 0px 60px 0px;
     background-color: #FDEFEF;
     margin-right: 10px;
     margin-top: 10px;
@@ -1984,19 +2000,30 @@ text-align: justify;
    
 }
 
+.img-helth17{
 
+    width:280px;
+    padding:80px 60px 0px 0px;
+    margin-right: -24px;
+}
 
+.img1-helth17{
+
+    width:240px;
+    padding:120px 70px 134px 0px;
+}
 
 
 
 /* helth18-19 */
 .img-helth18{
     width:260px;
-    margin: 20px 36px 0 0px ;
+    margin: 20px 36px 0 0px;
+    margin-right: 4px;
 }
 
 .btn-helth18{
- margin: 20px 110px 0 0;
+ margin: 20px 70px 0 0;
 }
 
 .border-helth18{
@@ -2004,13 +2031,13 @@ text-align: justify;
     border-style:hidden solid hidden hidden; 
     border-width: 6px;
     border-color:#EA2027 ;
-    margin: 180px 10px 40px 0px; 
+    margin: 90px 10px 40px 0px; 
     padding: 0px 30px 0 32px ;
 }
 
 .section-helth19{
 
-    margin: 110px 10px 40px 20px;
+    margin: 60px 10px 40px 18px;
 
 }
 
@@ -2019,7 +2046,7 @@ text-align: justify;
     width: 330px;
     border-color: #4671C6;
     border-style: solid;
-    padding: 60px 40px 60px 40px;
+    padding: 60px 17px 60px 17px;
     margin-left: -6px;
     background-color: #FEFAFB;
  
@@ -2034,7 +2061,7 @@ text-align: justify;
 }
 
 .f-size19{
-    font-size: 14px;
+    font-size: 17px;
 }
 .helth-card5{
 
@@ -2057,14 +2084,14 @@ text-align: justify;
 
 .btn-helth20{
 
-     margin: 40px 93px 0 0;
+     margin: 40px 73px 0 0;
 
 }
 
 .img-helth20{
 
     width:220px;
-    margin: 40px 70px 20px 0 ;
+    margin: 0px 50px 20px 0 ;
 }
 .border-helth21{
 
@@ -2084,8 +2111,8 @@ text-align: justify;
     text-align: center;
     border-radius: 36px;
     padding: 14px 20px 12px 20px;
-    margin-top: 130px;
-    margin-right: 70px;
+    margin-top: 90px;
+    margin-right: 55px;
 }
 
 .padd-helth20{
@@ -2111,13 +2138,13 @@ padding:0 14px 0 14px;
 .img1-helth21{
 
     width:200px;
-    margin: 0px 90px 0 0px ;
+    margin: 0px 60px 0 0px ;
 }
 
 .img2-helth21{
 
     width:240px;
-    margin: 0px 0px 20px 76px ;
+    margin: 20px 0px 0px 0px ;
 }
 .style-bg3{
 
@@ -2130,7 +2157,7 @@ padding:0 14px 0 14px;
     text-align: center;
     border-radius: 36px;
     padding: 14px 20px 12px 20px;
-    margin-right: 40px;
+    margin-right: 23px;
     
 }
 
@@ -2150,7 +2177,7 @@ padding:0 14px 0 14px;
 }
 
 .btn-helth22{
-    margin: 60px 137px 0 0;
+    margin: 60px 117px 0 0;
 }
 
 .img-helth22{
@@ -2183,13 +2210,13 @@ padding:0 14px 0 14px;
 .img1-helth23{
 
     width:200px;
-    margin: 100px 0px 80px 38px;
+    margin: 100px 0px 80px 11px;
 }
 
 .img2-helth23{
 
     width:240px; 
-    margin: 80px 0px 80px 53px;
+    margin: 80px 0px 80px 25px;
 }
 
 
