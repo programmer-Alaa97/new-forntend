@@ -468,8 +468,15 @@ text-align: justify;
     font-family: Dubai;
 }
 
+.margin-li{
+    margin-top: 40px;
+    font-size: 19px;
+    font-family: Dubai;
+}
 
-
+.padd-helth4{
+    padding-top: 140px;
+}
 
 
 
@@ -517,7 +524,7 @@ text-align: justify;
     line-height: 30px;
     font-size: 14px;
     font-family: Dubai;
-    text-align: justify;
+    text-align: center;
 }
 
 .div-helth6{
@@ -525,9 +532,9 @@ text-align: justify;
     border-style: hidden hidden solid hidden;
     border-width: 3px;
     border-color: #F9D951;
-    width: 350px;
+    width: 300px;
     padding-bottom: 20px;
-    margin: 0 80px 66px 0;
+    margin: 0 90px 66px 0;
     text-align: center;
 }
 
@@ -595,6 +602,11 @@ text-align: justify;
 
 
 /* helth8,24 */
+
+.mrt-herlth8{
+    margin-top:80px ;
+}
+
 
 .img-helth8{
 
@@ -1362,7 +1374,7 @@ font-size: 18px;
 font-family: Arial, Helvetica, sans-serif;
 width: 115px;
 height: 43px;
-padding: 4px;
+padding: 6px;
 }
 .btn1:hover{
     border: 2px solid #FF7979;
@@ -1395,13 +1407,13 @@ text-align: justify;
 
 .btn-helth1{
   
-    margin:70px 0px 20px 117px;
+    margin:70px 0px 20px 140px;
 }
 .img-helth1{
 
     width: 240px; 
-    padding-top: 140px;
-    margin-right: 55px;
+    padding-top: 45px;
+    margin-right: 75px;
 }
 .mar-p1{
    margin-right: 0px;
@@ -1416,20 +1428,20 @@ text-align: justify;
 
 .border-helth2 {
 
-    margin:88px 0px 60px 20px;
+    margin:45px 0px 60px 20px;
     box-shadow:1px;
     border-color: black;
     border-width: 1px; 
     border-style: solid;
     padding: 0 0px 40px 40px;
     box-shadow:3px 3px rgba(143, 138, 138, 0.596);
-    width: 340px;
+    width: 375px;
 }
 
 .my-dev-helth2{
 
-    margin-right: 40px;
-    width: 262px;
+    margin-right: 32px;
+    width: 313px;
     border-style: hidden hidden solid hidden;
     border-width: 2px;
     padding: 6px 0px 40px 0px;
@@ -1437,23 +1449,23 @@ text-align: justify;
 }
 
 .my-div1-helth2{
-    margin-right: 40px;
-    width: 262px;
+    margin-right: 32px;
+    width: 313px;
     margin-top: 19px;
     }
 
 
 .my-div-food{
 
-    margin: 30px 40px 0 0;
-    width: 262px;
+    margin: 30px 32px 0 0;
+    width: 313px;
 
 }
 
 .img-helth2{
 
      width: 200px;
-     margin: 80px 66px 0px 0px; 
+     margin: 80px 85px 0px 0px; 
 }
 
 
@@ -1473,24 +1485,24 @@ text-align: justify;
 .img2-helth4{
 
     width: 175px; 
-    margin: 0px 85px 0px 0px;
+    margin: 25px 103px 0px 0px;
 }
 
 .img1-helth4{
 
     width: 175px;
-     margin: 0px 85px 20px 0px;
+     margin: 0px 103px 20px 0px;
 }
 
 .img3{
 
     width: 200px;
-    margin:0px 60px 20px 0px; 
+    margin:0px 90px 20px 0px; 
 }
 
 .btn-helth3{
 
-  margin: 50px 110px 50px 0px;
+  margin: 50px 135px 50px 0px;
 }
 .card {
     position: relative;
@@ -1505,6 +1517,8 @@ text-align: justify;
     border-color: #FBEBAA;
     border-width:4px; 
     margin-top: 40px;
+    width: 23rem;
+    margin-right: 10px;
 }
 .p-helth3{
 
@@ -1546,6 +1560,7 @@ text-align: justify;
     border-color: grey;
     border-radius: 19px;
     border-width: 1px;
+    margin-right: 14px;
 
 }
 
@@ -1561,9 +1576,20 @@ text-align: justify;
     margin-top: 40px;
     font-size: 19px;
     font-family: Dubai;
+    padding: 17px
 }
 
+.margin-li{
 
+    margin-top: 40px;
+    font-size: 19px;
+    font-family: Dubai;
+
+}
+.padd-helth4{
+
+    padding-top: 80px;
+}
 
 
 /* helth5,6 */
@@ -1571,27 +1597,27 @@ text-align: justify;
 .img5{
 
     width: 140px;
-    margin:49px 65px 0px 0px ;
+    margin:49px 85px 0px 0px ;
 }
 
 .btn5{
 
-  margin: 20px 78px 20px 0px;
+  margin: 20px 100px 20px 0px;
 }
 .card-style{
     
     margin-top: 80px;
     margin-bottom: 60px;
     padding: 25px;
-    width: 21rem;
-    margin-left: 5px;
+    width: 23rem;
+    margin-left: 8px;
     border-color: #F9D951;
     border-width: 4px;
     box-shadow: 6px 6px 4px grey;
     border-style: solid;
 }
 
-.margin-helth4{
+.margin-helth5{
     margin-top: 40px;
 }
 
@@ -1603,14 +1629,15 @@ text-align: justify;
 .img-helth6{
 
     width:400px;
-    margin:20px -10px 20px  0px;
+    margin:20px 0px 20px  0px;
 }
 
 .text-style-h6{
-    line-height: 30px;
+    line-height: 26px;
     font-size: 20px;
     font-family: Dubai;
-    text-align: justify;
+    text-align: center;
+    padding: 0 13px 0 13px;
 }
 
 .div-helth6{
@@ -1618,9 +1645,9 @@ text-align: justify;
     border-style: hidden hidden solid hidden;
     border-width: 3px;
     border-color: #F9D951;
-    width: 300px;
+    width: 240px;
     padding-bottom: 20px;
-    margin: 0 27px 66px 0;
+    margin: 0 60px 66px 0;
 }
 
 
@@ -1630,21 +1657,21 @@ text-align: justify;
 
     width: 240px; 
     margin-top:50px; 
-    margin-right: 60px;
+    margin-right: 75px;
 }
 
 .btn-style7{
     
-    margin: 60px 120px 40px 0px;
+    margin: 60px 140px 40px 0px;
 }
 
 .style-bord{ 
   border-style: solid;
   background-color: #b0ecee;
-  width: 300px;
+  width: 375px;
   border-color: #b0ecee; 
   border-radius:29px;
-  margin-right: 28px;
+  margin-right: 9px;
   margin-bottom: 40px;
   font-size: 13px;
 }
@@ -1653,7 +1680,7 @@ text-align: justify;
 .img-helth9{
 
     width:200px;
-    margin:60px 75px 0px 0px;
+    margin:60px 96px 0px 0px;
 }
     
 .bord-helth9{
@@ -1664,7 +1691,7 @@ text-align: justify;
     border-width:3px; 
     border-color: #F9D951; 
     padding: 40px 20px 10px 20px; 
-    margin:0 126px 30px 0;
+    margin:0 148px 30px 0;
 }
 
 .mr-top9{
@@ -1686,25 +1713,37 @@ text-align: justify;
     width: 150px;
     border-width:4px; 
     border-color: #F9D951; 
-    padding: 40px 20px 10px 20px; 
+    padding: 40px 30px 10px 30px; 
     margin: 45px 0px 0px 0px;
 
 
 }
 
+.p-helth7{
+    padding: 14px;
+    margin-top: 1rem!important;
+}
+
+.p2-helth9{
+    padding: 0 22px 0 22px;
+}
 
 /* helth8,24 */
 
 .img-helth8{
 
-    width: 200px; 
-    height: 200px;
+    width: 235px; 
+    height: 225px;
     margin: 14px 0px 0 77px ; 
 }
 
+.mrt-herlth8{
+    margin-top: 0;
+}
+
 .btn-helth8{
-    margin-top: 40px;
-    margin-left: 125px;
+    margin-top: 7px;
+    margin-left: 135px;
 }
 .bord-helth8{
 
@@ -1719,16 +1758,16 @@ text-align: justify;
 
 .style-card1{
 
-    width: 20.8rem;
+    width: 22.8rem;
     border-color:#25CCF7 ;
-    margin-left: 11px;
+    margin-left: 22px;
   }
   
   .style-card2{
   
-      width: 20.8rem; 
+      width: 22.8rem; 
       border-color:#F9D951 ;
-      margin: 14px 0 0 11px;
+      margin: 14px 0 0 22px;
   }
 
 .padd-row{
@@ -1750,18 +1789,18 @@ text-align: justify;
 .img-helth10{
 
     width:200px;
-    margin:60px 70px 0px 0px;
+    margin:60px 90px 0px 0px;
 }
 
 .img-helth11{
     width:200px;
-    margin-right: 75px;
+    margin-right: 98px;
     margin-top: 130px; 
 }
 
 .btn-helth10{
 
-    margin: 40px 120px 30px 0px;
+    margin: 40px 140px 30px 0px;
 }
 .bord-helth10{
 
@@ -1796,12 +1835,12 @@ text-align: justify;
 .img-helth121{
 
  width: 200px;
- margin:0 75px 0 0 ;
+ margin:0 90px 0 0 ;
 }
 
 .btn-helth121{
 
-    margin: 30px 0px 60px 125px;
+    margin: 30px 0px 60px 140px;
 }
 
 .style-h121{
@@ -1829,15 +1868,15 @@ text-align: justify;
 .style-bord1{ 
     border-style: solid;
     background-color: #D32E5E;
-    width: 340px;
+    width: 250px;
     border-color: #707070; 
     border-radius:33px;
     margin-top: 70px;
-    margin-right: 8px;
+    margin-right: 70px;
     margin-bottom: 40px;
     color: white;
     border-width: 1px;
-    padding: 6px 6px 6px 6px;
+    padding: 0px 6px 6px 0px;
     }
 
 .text-style4{
@@ -1854,15 +1893,15 @@ text-align: justify;
 .style-h2{
 
     color:#D32E5E; 
-    margin:100px 10px 40px 0;
-    font-size: 25px;
+    margin:50px 10px 40px 0;
+    font-size: 20px;
     font-weight: 600;
     }
 
 .border-div-12{
 
      border-style:hidden hidden solid hidden;
-     padding: 140px 0 60px 0;
+     padding: 40px 0 60px 0;
      border-color: #D32E5E;
      border-width: 6px;
 }
@@ -1919,7 +1958,7 @@ text-align: justify;
     margin: 100px 0px  0px 23px;
     border-style: solid;
     border-color:#F9D951;
-    width: 330px;
+    width: 366px;
     margin-bottom: 20px;
     border-width:4px;
     padding: 19px 0px 0px 0px;
@@ -1937,13 +1976,13 @@ text-align: justify;
 }
 .btn-helth16{
 
-    margin: 0px 113px 60px 0px ;
+    margin: 0px 140px 60px 0px ;
  }
 
 .img-helth16{
 
     width: 200px; 
-    margin: 0px 66px 0px 0px;
+    margin: 0px 100px 0px 0px;
 }
 .border-helth16{
 
@@ -1968,7 +2007,7 @@ text-align: justify;
 
 .helth-card1{
 
-    width: 330px;
+    width: 370px;
     border-color: #833471;
     border-style: solid;
     padding: 40px 40px 20px 40px;
@@ -1979,7 +2018,7 @@ text-align: justify;
 
 .helth-card2{
 
-    width: 330px;
+    width: 370px;
     height: 300px;
     border-color: #833471;
     border-style: solid;
@@ -1991,7 +2030,7 @@ text-align: justify;
 
 .helth-card3{
 
-    width: 330px;
+    width: 370px;
     border-color: #833471;
     border-style: solid;
     background-color: #FDEFEF;
@@ -2010,7 +2049,7 @@ text-align: justify;
 .img1-helth17{
 
     width:240px;
-    padding:120px 70px 134px 0px;
+    padding:35px 70px 35px 0px;
 }
 
 
@@ -2019,11 +2058,11 @@ text-align: justify;
 .img-helth18{
     width:260px;
     margin: 20px 36px 0 0px;
-    margin-right: 4px;
+    
 }
 
 .btn-helth18{
- margin: 20px 70px 0 0;
+ margin: 20px 104px 0 0;
 }
 
 .border-helth18{
@@ -2043,7 +2082,7 @@ text-align: justify;
 
 .helth-card4{
 
-    width: 330px;
+    width: 364px;
     border-color: #4671C6;
     border-style: solid;
     padding: 60px 17px 60px 17px;
@@ -2065,7 +2104,7 @@ text-align: justify;
 }
 .helth-card5{
 
-    width: 330px;
+    width: 364px;
     height: 240px;
     border-color: #4671C6;
     border-style: solid;
@@ -2084,14 +2123,14 @@ text-align: justify;
 
 .btn-helth20{
 
-     margin: 40px 73px 0 0;
+     margin: 40px 100px 0 0;
 
 }
 
 .img-helth20{
 
     width:220px;
-    margin: 0px 50px 20px 0 ;
+    margin: 0px 75px 20px 0 ;
 }
 .border-helth21{
 
@@ -2112,7 +2151,7 @@ text-align: justify;
     border-radius: 36px;
     padding: 14px 20px 12px 20px;
     margin-top: 90px;
-    margin-right: 55px;
+    margin-right: 73px;
 }
 
 .padd-helth20{
@@ -2132,13 +2171,13 @@ padding:0 14px 0 14px;
     text-align: center;
     border-radius: 36px;
     padding: 14px 20px 12px 20px;
-    margin-right: 7px;
+    margin-right: 23px;
 }
 
 .img1-helth21{
 
     width:200px;
-    margin: 0px 60px 0 0px ;
+    margin: 0px 90px 0 0px ;
 }
 
 .img2-helth21{
@@ -2157,10 +2196,13 @@ padding:0 14px 0 14px;
     text-align: center;
     border-radius: 36px;
     padding: 14px 20px 12px 20px;
-    margin-right: 23px;
+    margin-right: 45px;
     
 }
 
+.padd-helth22{
+    padding: 35px;
+}
 
 .style-bg-helth22{
     border-style: solid; 
@@ -2172,18 +2214,18 @@ padding:0 14px 0 14px;
     text-align: center;
     border-radius: 36px;
     padding: 14px 20px 12px 20px;  
-    margin: 100px 25px 40px 0px;
+    margin: 0px 20px 40px 0px;
     font-family: Dubai;
 }
 
 .btn-helth22{
-    margin: 60px 117px 0 0;
+    margin: 60px 145px 0 0;
 }
 
 .img-helth22{
 
     width:230px;
-    margin: 20px 63px 20px 0 ;
+    margin: 20px 80px 20px 0 ;
 }
 /* helth20-21-22-end */
 
@@ -2202,7 +2244,7 @@ padding:0 14px 0 14px;
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,125);
     border-radius: .25rem;
-    width: 330px;
+    width: 366px;
     margin-bottom: 30px;
 }
 
@@ -2210,13 +2252,13 @@ padding:0 14px 0 14px;
 .img1-helth23{
 
     width:200px;
-    margin: 100px 0px 80px 11px;
+    margin: 40px 0px 40px 30px;
 }
 
 .img2-helth23{
 
     width:240px; 
-    margin: 80px 0px 80px 25px;
+    margin: 40px 0px 40px 40px;
 }
 
 
