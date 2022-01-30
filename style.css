@@ -3,7 +3,7 @@
 
 
   .menu {
-    background: #F67280;
+    
     height: 4rem;
   }
   .menu ol {
@@ -236,27 +236,29 @@ body{
 
 /* index-start */
 
-.text-style{
-line-height: 30px;
-font-size: 16px;
-font-family:Dubai;
-padding-top: 40px;
-text-align: justify;
-}
 
 .img-index{
 
     width: 330px;
+    position: absolute;
+    right: 33rem;
+    top: 23rem;
 }
 .btn{
     width: 100px;
     border-color:#FF7979 ;
     background-color: #FFEBEB;
     border-radius: 40px;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
-    margin:170px 40px 0 0;
+    margin:195px -230px 0 0;
      
+}
+
+.btn:hover{
+    color: #ffffff;
+    background-color: #FF7979;
+    cursor: pointer;
 }
 
 /* index-end */
@@ -270,8 +272,7 @@ text-align: justify;
     text-align: center;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 115px;
-    height: 43px;
+    width: 100px;
     padding: 4px;
     }
 .btn1:hover{
@@ -282,22 +283,22 @@ text-align: justify;
     text-align: center;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 115px;
-    height: 43px;
+    width: 100px;
     padding: 4px;
 }
 /* end */
 
 
 /* font-text-start */
-.text-style1{
-line-height: 30px;
-font-size: 16px;
-font-family: Dubai;
-text-align: justify;
-}
 
-
+.text-style{
+    line-height: 30px;
+    font-size: 20px;
+    font-family:Dubai;
+    padding-top: 40px;
+    text-align: justify;
+    }
+    
 /* font-text-end */
 
 
@@ -305,24 +306,24 @@ text-align: justify;
 
 .btn-helth1{
   
-    margin:70px 40px 20px 0;
+    margin:20px 40px 20px 0;
 }
 
 .img-helth1{
 
-    width: 240px; 
-    padding-top: 140px;
+    width: 250px;
+    margin: 9rem 0 0 0;
 }
 .mar-p1{
-   margin-right: 170px;
-   padding-top: 10px;
+   margin-right: 140px;
+   padding-top: 0px;
 }
 
 .marg-r1{
     margin-right: 60px;
     text-align: center;
 }
-.border-helth2 {
+/* .border-helth2 {
 
     margin:130px 0px 130px 100px;
     box-shadow:1px;
@@ -331,12 +332,12 @@ text-align: justify;
     border-style: solid;
     padding: 0 0px 40px 40px;
     box-shadow:3px 3px rgba(143, 138, 138, 0.596);
-}
+} */
 
 .my-dev-helth2{
 
-    margin-right: 80px;
-    width: 397px;
+    margin: 175px -30px 0 0px;
+    width: 75rem;
     border-style: hidden hidden solid hidden;
     border-width: 2px;
     padding: 6px 22px 40px 23px;
@@ -344,23 +345,30 @@ text-align: justify;
 }
 
 .my-div1-helth2{
-    margin-right: 70px;
-    width: 400px;
-    margin-top: 19px;
-    }
+    
+    width: 73rem;
+    margin-top: 30px;
+}
 
+.my-div2-helth2{
+
+    width: 40rem;
+    direction: rtl;
+    margin: 100px;
+}
 
 .my-div-food{
 
-    margin: 30px 90px 0 0;
-    width: 397px;
-
+    margin: 0px 45px 40px 0;
+    width: 30rem;
 }
+
+
 
 .img-helth2{
 
      width: 300px;
-     margin: 100px 130px 0px 0px; 
+     margin: 100px 0px 0px 175px; 
 }
 
 
@@ -369,7 +377,7 @@ text-align: justify;
     border-style: hidden hidden solid hidden; 
     border-width: 1px;
     padding: 13px;
-    margin: 140px 0 70px 60px ;
+    margin: 100px 62px 70px 0px;
 }
 
 
@@ -379,24 +387,26 @@ text-align: justify;
 
 .img2-helth4{
 
-    width: 220px; 
-    margin: 60px 60px 0px 0px;
+    width: 200px; 
+    margin: 100px 60px 0px 0px;
 }
 
 .img1-helth4{
 
-    width: 220px;
-     margin: 170px 60px 0px 0px;
+    width: 300px;
+    margin: 240px 0px 0px 0px;
 }
 .img3{
 
-    width: 280px;
-    margin:170px 200px 0px 0px; 
+    width: 260px;
+    margin: 175px 30px 75px 0px;
 }
 
 .btn-helth3{
 
-  margin: 60px 40px 40px 0px;
+    position: relative;
+    top: 14.5rem;
+    right: 17rem;
 }
 
 .card {
@@ -418,7 +428,7 @@ text-align: justify;
 
     text-align: center;
     color: black;
-    margin:18px 0 18px 0;
+    margin:10px 0 10px 0;
     font-size: 20px; 
 }
 
@@ -431,7 +441,10 @@ text-align: justify;
 
 .mar-top{
 
-    margin-top: 30px;
+    margin-top: 20px;
+    list-style-type: circle;
+    font-size: 20px;
+    font-family: Dubai;
 }
 
 
@@ -447,37 +460,30 @@ text-align: justify;
 .bord1{
     border-style: solid; 
     background-color:#f5e297; 
-    width: 300px;
+    width: 230px;
     border-color: grey;
     border-radius: 19px;
     border-width: 1px;
-
-}
-
-
-.text-style2{
-    line-height: 30px;
-    font-size: 17px;
-    font-family: Dubai;
-    text-align: justify;
-}
-
-.margin-helth4{
-    margin-top: 40px;
-    font-size: 19px;
-    font-family: Dubai;
+    margin-top: 75px;
 }
 
 .margin-li{
-    margin-top: 40px;
-    font-size: 19px;
+    margin: 40px 44px 0 0;
+    font-size: 20px;
     font-family: Dubai;
+    list-style: circle;
 }
 
 .padd-helth4{
     padding-top: 140px;
 }
 
+.h6-helth4{
+    font-size: 20px;
+    font-family: Dubai; 
+    font-weight: 700; 
+    margin: 44px 44px 0 0;
+}
 
 
 /* helth5,6 */
@@ -506,7 +512,7 @@ text-align: justify;
 }
 
 .margin-helth4{
-    margin-top: 40px;
+    margin: -25px 0 0 0;
 }
 
 .padd-helth6{
@@ -516,15 +522,8 @@ text-align: justify;
 
 .img-helth6{
 
-    width:440px;
-    margin:220px 120px 0px  0px;
-}
-
-.text-style-h6{
-    line-height: 30px;
-    font-size: 14px;
-    font-family: Dubai;
-    text-align: center;
+    width:390px;
+    margin:290px 120px 0px  0px;
 }
 
 .div-helth6{
@@ -534,33 +533,39 @@ text-align: justify;
     border-color: #F9D951;
     width: 300px;
     padding-bottom: 20px;
-    margin: 0 90px 66px 0;
+    margin: 0 90px 0px 0;
     text-align: center;
 }
 
+.li-style{
+    margin: 20px 33px 0 0;
+    font-size: 20px; 
+    font-family: Dubai;
+    list-style: circle;
+}
 
 /* helth7,9 */
 
 .img7{
 
-    width: 360px; 
-    margin-top:500px; 
-    margin-right: 100px;
+    width: 330px;
+    margin-top: 435px;
+    margin-right: 0px;
 }
 
 .btn-style7{
 
-    margin: 80px 1000px 40px 0px;
+    margin: 0px 1000px 40px 0px;
 }
 
 .style-bord{ 
   border-style: solid;
   background-color: #b0ecee;
-  width: 400px;
+  width: 490px;
   border-color: #b0ecee; 
   border-radius:29px;
   margin-right: 350px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   padding:14px 0 10px 0;
   text-align: center;
   color: black;
@@ -569,13 +574,13 @@ text-align: justify;
 
 .mr-top9{
 
-   margin:170px  100px 100px 0px;
+    margin: 140px 75px 100px 0px
 }
 
 .img-helth9{
 
     width:200px;
-    margin:80px 460px 0px 0px;
+    margin:80px 500px 0px 0px;
 }
 
 .bord-helth9{
@@ -586,7 +591,7 @@ text-align: justify;
     border-width:3px; 
     border-color: #F9D951; 
     padding: 40px 20px 10px 20px; 
-    margin:0 480px 30px 0;
+    margin:0 525px 30px 0;
 }
 
 .bord-helth7{
@@ -596,7 +601,7 @@ text-align: justify;
     border-width:4px; 
     border-color: #F9D951; 
     padding: 40px 20px 10px 20px; 
-    margin: 160px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
 
 }
 
@@ -604,18 +609,20 @@ text-align: justify;
 /* helth8,24 */
 
 .mrt-herlth8{
-    margin-top:80px ;
+    margin-top:80px;
 }
 
 
 .img-helth8{
 
     width: 260px; 
-    margin: 14px 20px 0 0 ; 
+    margin: 14px 20px 0 0; 
 }
 
 .btn-helth8{
-    margin-top: 80px;
+    margin-top: 25px;
+    margin-left: 60px;
+    position: absolute;
 }
 .bord-helth8{
 
@@ -652,6 +659,9 @@ text-align: justify;
 .li-helth10{
 
     font-family: Dubai;
+    font-size: 20px;
+    list-style: circle;
+    margin-right: 26px;
 }
 .img-helth10{
 
@@ -661,7 +671,7 @@ text-align: justify;
 
 .img-helth11{
     width:260px;
-    margin-right: 430px;
+    margin-right: 450px;
     margin-top: 130px; 
 }
 
@@ -678,24 +688,13 @@ text-align: justify;
     padding:0px 30px 0px 30px;
 
 }
-.text-style3{
-    line-height: 30px;
-    font-size: 17px;
-    font-family: Dubai;
-    text-align: justify;
-    margin: 20px 0px 20px 0px;
-    }
 
-.text-helth11{
-
-    text-align: center;
-    line-height: 30px;
-    font-size: 17px;
+.h4-helth10{
+    padding-top: 60px;
+    padding-right: 30px; 
+    font-weight: 600;
     font-family: Dubai;
-    margin: 20px 0px 20px 0px;
 }
-
-
 /* helth12-13*/
 
 .img-helth121{
@@ -710,19 +709,12 @@ text-align: justify;
 }
 
 .style-h121{
-
-    color:#D32E5E; 
+    color: #D32E5E;
     text-align: center;
     margin-top: 80px;
-}
-
-.text-style3{
-    line-height: 30px;
-    font-size: 17px;
+    font-size: 25px;
     font-family: Dubai;
-    text-align: justify;
-    margin: 20px 0px 20px 0px;
-    }
+}
 
     .img-helth13{
 
@@ -732,33 +724,31 @@ text-align: justify;
     .style-bord1{ 
         border-style: solid;
         background-color: #D32E5E;
-        width: 360px;
-        border-color: #707070; 
-        border-radius:33px;
-        margin-top: 200px;
-        margin-right: 380px;
-        margin-bottom: 40px;
+        width: 300px;
+        border-color: #707070;
+        border-radius: 33px;
+        margin-top: 170px;
+        margin-right: 420px;
+        margin-bottom: 20px;
         color: white;
         border-width: 1px;
-        padding: 6px 6px 6px 6px;
-          }
+        padding: 12px 6px 0px 6px;
+}
     
     .text-style4{
-        line-height: 30px;
-        font-size: 20px;
-        font-family: Dubai;
-        text-align: justify;
-        text-align: center;
-        margin-top: 12px;
+    font-size: 25px;
+    font-family: Dubai;
+    text-align: center;
       
-    }
+}
 
 
     .style-h2{
 
         color:#D32E5E; 
-        font-size: 18px;
-        margin:100px 10px 40px 0;
+        margin:0 10px 40px 0;
+        font-size: 25px;
+        font-family: Dubai;
         }
 
 .border-div-12{
@@ -777,7 +767,21 @@ text-align: justify;
 
 }
 
+.mar-li-helth121{
+
+    list-style: circle;
+    margin-right: 10px;
+    margin-top: -30px;
+}
+
 /* helth14-15 */
+
+.h4-helth14 {
+    font-family: Dubai;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #ff797d;
+}
 .img-helth14{
 
     width:400px;
@@ -793,7 +797,7 @@ text-align: justify;
 .img1-helth15{
 
     width:400px;
-    margin: 4px 0px 0px 794px;
+    margin: 0px 0px 0px 817px;
 }
 
 .img2-helth15{
@@ -804,7 +808,7 @@ text-align: justify;
 }
 
 .border-body1 {
-    margin: 100px 300px  0px 37px;
+    margin: 135px 300px  0px 37px;
     border-style: solid;
     border-color:#F9D951;
     width: 1280px;
@@ -820,12 +824,13 @@ text-align: justify;
 
 .btn-helth16{
 
-   margin: 0px 100px 60px 0px ;
+   margin: 663px 100px 0px 0px ;
 }
+
 .img-helth16{
 
-     width: 300px; 
-     margin: 330px 0px 0px 40px;
+    width: 250px;
+    margin: 266px 107px 0px 0px;
 }
 .border-helth16{
 
@@ -837,7 +842,7 @@ text-align: justify;
 
 .mar-section{
 
-    margin: 120px 60px 100px 100px;
+    margin: 120px 60px 40px 100px;
     
    }
 
@@ -855,6 +860,7 @@ text-align: justify;
 .helth-card2{
 
     width: 400px;
+    height: 421px;
     border-color: #833471;
     border-style: solid;
     padding: 0px 0px 64px 0px;
@@ -866,6 +872,7 @@ text-align: justify;
 .helth-card3{
 
     width: 400px;
+    height: 611px;
     border-color: #833471;
     border-style: solid;
     background-color: #FDEFEF;
@@ -875,18 +882,22 @@ text-align: justify;
 
 .img-helth17{
 
-    width:280px;
+    width:300px;
     padding:140px 60px 20px 0px;
 }
 
 .img1-helth17{
 
-    width:280px;
-    padding:120px 70px 172px 0px;
-    margin-right: 20px;
+    width: 300px;
+    padding: 159px 70px 172px 0px;
+    margin-right: 12px;
 }
 
+.li-style-h16{
 
+    padding-bottom: 20px;
+    list-style: circle;
+}
 
 
 /* helth18-19 */
@@ -921,7 +932,7 @@ text-align: justify;
     width: 800px;
     border-color: #4671C6;
     border-style: solid;
-    padding: 100px 40px 100px 40px;
+    padding: 57px 40px 78px 40px;
     background-color: #FEFAFB;
   
 
@@ -940,12 +951,8 @@ text-align: justify;
     border-style: solid;
     padding: 40px 200px 44px 20px;
     background-color: #FEFAFB;
-  
 
 }
-
-
-
 
 
 /* helth20-21-22-start */
@@ -959,7 +966,7 @@ text-align: justify;
 .img-helth20{
 
     width:300px;
-    margin: 100px 200px 0 0 ;
+    margin: 100px -60px 0 0 ;
 }
 
 .border-helth21{
@@ -985,8 +992,8 @@ text-align: justify;
 
 .img1-helth21{
 
-    width:200px;
-    margin: 200px 40px 0 0 ;
+    width:250px;
+    margin: 140px 40px 0 0 ;
 }
 
 .img2-helth21{
@@ -1038,13 +1045,13 @@ text-align: justify;
 }
 
 .btn-helth22{
-    margin: 170px 0px 0 0;
+    margin: 170px 0 0 20px;
 }
 
 .img-helth22{
 
     width:330px;
-    margin: 40px 200px 20px 0 ;
+    margin: 40px 0 20px 220px ;
 }
 /* helth20-21-22-end */
 
@@ -1091,7 +1098,7 @@ text-align: justify;
 
     width:100px;
     padding: 20px 0px 20px 0; 
-    margin-right: 230px;
+    margin-right: 204px;
 }
 
 
@@ -1151,27 +1158,38 @@ text-align: justify;
 }
 
 
-
-
-
-
-
 .signin{
     position: absolute;
-    top:50%;
+    top:52%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    border:1px solid  #FF8D8D ;
+    border: 1px solid #0000000d;
     border-radius: 10px;
-    padding:60px 300px 60px 300px;
-    box-shadow: 2px 2px 2px 2px #FF8D8D;
+    padding:14px 300px 30px 300px;
+    box-shadow: 2px 2px 18px 2px #00000012;
 
 }
 
+.form{
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 17rem;
+    top: 14px;
+}
 
+.imag img{
+    position: relative;
+    width: 499px;
+    right: 483px;
+    top: 73px;
 
+}
 
-
+.mar-top-footer{
+    margin-top: 120px;
+}
 
 
 /* footer start */
@@ -1229,77 +1247,6 @@ body{
     margin: 0px;
 }
 
-/* 
-
-.nav-btn{
-    border-style: solid;
-    width: 140px;
-    border-color: white;
-    padding: 10px 20px 10px 20px;
-    border-width: 1px;
-    border-radius: 6px;
-    
-}
-
-.nav-link-new {
-    color: white;
-}
-
-.bg-light1{
-
-    background-color: #FF7979!important;
-    padding: 12px;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: white;
-}
-
-.navbar-nav {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 10px;
-    list-style: none;
-    width: 143px;
-    text-align: center;
-    padding-left: 126px;
-}
-
-dl, ol, ul {
-    margin-top: 10px;
-    margin-bottom: 1rem;
-}
-.navbar-light .navbar-brand {
-    color: white;
-}
-
-.dropdown-toggle a:hover{
-    color: #FF7979;
-} 
-.dropdown-menu a:hover{
-    background-color: #FF7979;
-}
-
-
-.dropdown-menu {
-    position: absolute;
-    z-index: 1000;
-    display: none;
-    min-width: 10rem;
-    padding: 0.5rem 0;
-    margin-top: 4px;
-    font-size: 1rem;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    background-color: #FFF3E4;
-    opacity: 0.9px;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 0.25rem;
-} */
-
 
 .buttcolor{
 
@@ -1325,31 +1272,25 @@ dl, ol, ul {
     
 }
 
-.textstyle{
-  
-    text-align: right;
-    font-size: 14px;
-}
-
-
-
 
 
 /* index-start */
 
 .text-style{
 line-height: 30px;
-font-size: 12px;
+font-size: 20px;
 font-family:Dubai;
 padding-top: 40px;
 text-align: justify;
 }
 
 .img-index{
-
-    width: 200px;
-    margin-left: 40px;
+    width: 280px;
+    position: absolute;
+    right: 8rem;
+    top: 28rem;
 }
+
 .btn{
     width: 130px;
     border-color:#FF7979 ;
@@ -1357,8 +1298,8 @@ text-align: justify;
     border-radius: 40px;
     font-size: 12px;
     text-align: center;
-    margin-top: 30px;
-    margin-left: 40px; 
+    margin-top: 150px;
+    margin-left: -66px;
 }
 
 /* index-end */
@@ -1391,18 +1332,6 @@ padding: 6px;
 /* end */
 
 
-/* font-text-start */
-.text-style1{
-line-height: 30px;
-font-size: 16px;
-font-family: Dubai;
-text-align: justify;
-}
-
-
-/* font-text-end */
-
-
 /* helth1,helth2 */
 
 .btn-helth1{
@@ -1412,18 +1341,12 @@ text-align: justify;
 .img-helth1{
 
     width: 240px; 
-    padding-top: 45px;
-    margin-right: 75px;
+    padding-top: 20px;
+    margin-right: 70px;
 }
 .mar-p1{
    margin-right: 0px;
    padding: 10px 26px 0 26px;
-}
-
-.marg-r1 {
-    margin-right: 0px;
-    text-align: center;
-
 }
 
 .border-helth2 {
@@ -1448,12 +1371,11 @@ text-align: justify;
   
 }
 
-.my-div1-helth2{
-    margin-right: 32px;
-    width: 313px;
+.my-div1-helth2 {
+    margin-right: 17px;
+    width: 335px;
     margin-top: 19px;
-    }
-
+}
 
 .my-div-food{
 
@@ -1465,7 +1387,7 @@ text-align: justify;
 .img-helth2{
 
      width: 200px;
-     margin: 80px 85px 0px 0px; 
+     margin: 20px 0px 0px 90px; 
 }
 
 
@@ -1478,31 +1400,40 @@ text-align: justify;
 }
 
 
-
+.my-div2-helth2 {
+    width: 19rem;
+    direction: rtl;
+    margin: 37px;
+}
 
 /* helth3,4 */
 
 .img2-helth4{
 
     width: 175px; 
-    margin: 25px 103px 0px 0px;
+    margin: 25px 85px 0px 0px;
 }
 
 .img1-helth4{
 
-    width: 175px;
-     margin: 0px 103px 20px 0px;
+    width: 225px;
+    margin: 0px 70px 20px 0px;
 }
 
 .img3{
 
-    width: 200px;
-    margin:0px 90px 20px 0px; 
+    width: 225px;
+    margin: 25px 75px 0px 0px;
 }
+
 
 .btn-helth3{
 
-  margin: 50px 135px 50px 0px;
+    margin: 0px 0px 40px 0px;
+    position: relative;
+    top: 1.5rem;
+    right: 8.5rem;
+
 }
 .card {
     position: relative;
@@ -1516,15 +1447,15 @@ text-align: justify;
     border-radius: 0.25rem;
     border-color: #FBEBAA;
     border-width:4px; 
-    margin-top: 40px;
+    margin-top: 110px;
     width: 23rem;
-    margin-right: 10px;
+    margin-right: 3px;
 }
 .p-helth3{
 
     text-align: center;
     color: black;
-    margin:18px 0 18px 0;
+    margin:13px 0 13px 0;
     font-size: 20px; 
     font-weight: 600;
 }
@@ -1541,6 +1472,7 @@ text-align: justify;
     margin-top: 30px;
     font-size: 20px;
     font-family: Dubai;
+    margin-right: 44px;
 }
 
 
@@ -1556,41 +1488,33 @@ text-align: justify;
 .bord1{
     border-style: solid; 
     background-color:#f5e297; 
-    width: 260px;
+    width: 220px;
     border-color: grey;
     border-radius: 19px;
     border-width: 1px;
-    margin-right: 14px;
+    margin-right: 3px;
 
-}
-
-
-.text-style2{
-    line-height: 30px;
-    font-size: 17px;
-    font-family: Dubai;
-    text-align: justify;
-}
-
-.margin-helth4{
-    margin-top: 40px;
-    font-size: 19px;
-    font-family: Dubai;
-    padding: 17px
 }
 
 .margin-li{
 
     margin-top: 40px;
-    font-size: 19px;
+    font-size: 20px;
     font-family: Dubai;
+    margin-right: 9px;
 
 }
 .padd-helth4{
 
-    padding-top: 80px;
+    padding-top: 170px;
 }
 
+.h6-helth4{
+    font-size: 20px;
+    font-family: Dubai;
+    font-weight: 700;
+    margin: 44px 0px 44px 0;
+}
 
 /* helth5,6 */
 
@@ -1606,11 +1530,11 @@ text-align: justify;
 }
 .card-style{
     
-    margin-top: 80px;
+    margin-top: 125px;
     margin-bottom: 60px;
     padding: 25px;
     width: 23rem;
-    margin-left: 8px;
+    margin-left: 2px;
     border-color: #F9D951;
     border-width: 4px;
     box-shadow: 6px 6px 4px grey;
@@ -1619,11 +1543,15 @@ text-align: justify;
 
 .margin-helth5{
     margin-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Dubai;
 }
 
 .padd-helth6{
 
-    padding: 95px 10px 0px 10px;
+    padding: 140px 12px 0px 10px;
+
 }
 
 .img-helth6{
@@ -1647,7 +1575,7 @@ text-align: justify;
     border-color: #F9D951;
     width: 240px;
     padding-bottom: 20px;
-    margin: 0 60px 66px 0;
+    margin: 0 60px 0px 0;
 }
 
 
@@ -1657,23 +1585,24 @@ text-align: justify;
 
     width: 240px; 
     margin-top:50px; 
-    margin-right: 75px;
+    margin-right: 66px;
 }
 
 .btn-style7{
     
-    margin: 60px 140px 40px 0px;
+    margin: 60px 130px 40px 0px;
 }
 
 .style-bord{ 
-  border-style: solid;
-  background-color: #b0ecee;
-  width: 375px;
-  border-color: #b0ecee; 
-  border-radius:29px;
-  margin-right: 9px;
-  margin-bottom: 40px;
-  font-size: 13px;
+    border-style: solid;
+    background-color: #b0ecee;
+    width: 310px;
+    border-color: #b0ecee;
+    border-radius: 29px;
+    margin-right: 28px;
+    margin-bottom: 40px;
+    margin-top: 110px;
+    font-family: Dubai;
 }
 
 
@@ -1691,7 +1620,7 @@ text-align: justify;
     border-width:3px; 
     border-color: #F9D951; 
     padding: 40px 20px 10px 20px; 
-    margin:0 148px 30px 0;
+    margin:0 130px 30px 0;
 }
 
 .mr-top9{
@@ -1709,15 +1638,19 @@ text-align: justify;
 
 .bord-helth7{
 
-    border-style:hidden hidden  solid hidden ;
-    width: 150px;
-    border-width:4px; 
-    border-color: #F9D951; 
-    padding: 40px 30px 10px 30px; 
-    margin: 45px 0px 0px 0px;
-
-
+    border-style: hidden hidden solid hidden;
+    width: 141px;
+    border-width: 4px;
+    border-color: #F9D951;
+    padding: 40px 11px 10px 20px;
+    margin: 100px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Dubai;
 }
+
+
+
 
 .p-helth7{
     padding: 14px;
@@ -1734,16 +1667,17 @@ text-align: justify;
 
     width: 235px; 
     height: 225px;
-    margin: 14px 0px 0 77px ; 
+    margin: 14px 0px 40px 77px ; 
 }
 
 .mrt-herlth8{
-    margin-top: 0;
+    margin-top: 40px;
 }
 
 .btn-helth8{
-    margin-top: 7px;
+    margin-top: 250px;
     margin-left: 135px;
+    position: absolute;
 }
 .bord-helth8{
 
@@ -1751,7 +1685,7 @@ text-align: justify;
     border-width: 7px; 
     border-color: #FF7979;
     margin: 30px;
-    padding:10px 30px 20px 30px;
+    padding: 0px 18px 0px 14px;
     
 }
 
@@ -1760,14 +1694,14 @@ text-align: justify;
 
     width: 22.8rem;
     border-color:#25CCF7 ;
-    margin-left: 22px;
+    margin-left: 16px;
   }
   
   .style-card2{
   
       width: 22.8rem; 
       border-color:#F9D951 ;
-      margin: 14px 0 0 22px;
+      margin: 14px 0 0 16px;
   }
 
 .padd-row{
@@ -1785,22 +1719,24 @@ text-align: justify;
     font-family: Dubai;
     font-size: 18px;
     margin-bottom: 2px;
+    list-style: circle;
+    margin-right: 26px;
 }
 .img-helth10{
 
     width:200px;
-    margin:60px 90px 0px 0px;
+    margin:60px 85px 0px 0px;
 }
 
 .img-helth11{
     width:200px;
-    margin-right: 98px;
+    margin-right: 85px;
     margin-top: 130px; 
 }
 
 .btn-helth10{
 
-    margin: 40px 140px 30px 0px;
+    margin: 40px 130px 30px 0px;
 }
 .bord-helth10{
 
@@ -1811,36 +1747,35 @@ text-align: justify;
     padding:0px 30px 0px 30px;
 
 }
-.text-style3{
+
+.text-helth11{
+
+    text-align: center;
     line-height: 30px;
     font-size: 17px;
     font-family: Dubai;
-    text-align: justify;
     margin: 20px 0px 20px 0px;
-    }
+    padding: 11px;
+}
 
-    .text-helth11{
-
-        text-align: center;
-        line-height: 30px;
-        font-size: 17px;
-        font-family: Dubai;
-        margin: 20px 0px 20px 0px;
-        padding: 11px;
-    }
-
+.h4-helth10{
+    padding-top: 100px;
+    padding-right: 30px; 
+    font-weight: 600;
+    font-family: Dubai;
+}
 
 /* helth12-13*/
 
 .img-helth121{
 
- width: 200px;
- margin:0 90px 0 0 ;
+    width: 225px;
+    margin: 70px 70px 0 0;
 }
 
 .btn-helth121{
 
-    margin: 30px 0px 60px 140px;
+    margin: 30px 0px 60px 130px;
 }
 
 .style-h121{
@@ -1852,18 +1787,12 @@ text-align: justify;
     font-weight: 600;
 }
 
-.text-style3{
-    line-height: 30px;
-    font-size: 17px;
-    font-family: Dubai;
-    text-align: justify;
-    margin: 20px 0px 20px 0px;
-    }
+
 
 .img-helth13{
 
     width:300px;
-    margin:0px 64px 0 0;
+    margin:60px 64px 0 0;
 }
 .style-bord1{ 
     border-style: solid;
@@ -1871,8 +1800,8 @@ text-align: justify;
     width: 250px;
     border-color: #707070; 
     border-radius:33px;
-    margin-top: 70px;
-    margin-right: 70px;
+    margin-top: 135px;
+    margin-right: 60px;
     margin-bottom: 40px;
     color: white;
     border-width: 1px;
@@ -1892,11 +1821,11 @@ text-align: justify;
 
 .style-h2{
 
-    color:#D32E5E; 
-    margin:50px 10px 40px 0;
-    font-size: 20px;
+    color: #D32E5E;
+    margin: 6px 10px 10px 0;
+    font-size: 23px;
     font-weight: 600;
-    }
+}
 
 .border-div-12{
 
@@ -1914,6 +1843,11 @@ text-align: justify;
 
 }
 
+.mar-li-helth121{
+
+    list-style: circle;
+    margin-right: 35px;
+}
 
 /* helth14-15*/
 .h4-helth14{
@@ -1926,7 +1860,7 @@ text-align: justify;
 .img-helth14{
 
     width:300px;
-    margin: 70px 0px 0px 0px;
+    margin: 125px 0px 0px 0px;
 }
 
 .btn-helth14{
@@ -1976,13 +1910,13 @@ text-align: justify;
 }
 .btn-helth16{
 
-    margin: 0px 140px 60px 0px ;
+    margin: 30px 130px 60px 0px;
  }
 
 .img-helth16{
 
     width: 200px; 
-    margin: 0px 100px 0px 0px;
+    margin: -35px 85px 0px 0px;
 }
 .border-helth16{
 
@@ -1995,13 +1929,13 @@ text-align: justify;
 
 .margin-helth16{
 
-    padding: 17px;
+    padding: -2px;
     margin-right: 17px;
 
 }
 .mar-section{
 
- margin: 110px 0px 80px 10px;
+ margin: 110px 0px 0px 0px;
 
 }
 
@@ -2010,9 +1944,9 @@ text-align: justify;
     width: 370px;
     border-color: #833471;
     border-style: solid;
-    padding: 40px 40px 20px 40px;
+    padding: 40px 20px 20px 20px;
     background-color: #FBFAFA;
-    margin-right: 10px;
+    margin-right: 2px;
 
 }
 
@@ -2023,7 +1957,7 @@ text-align: justify;
     border-color: #833471;
     border-style: solid;
     background-color: #FDEFEF;
-    margin-right: 10px;
+    margin-right: 4px;
     margin-top: 10px;
    
 }
@@ -2031,10 +1965,11 @@ text-align: justify;
 .helth-card3{
 
     width: 370px;
+    height: 290px;
     border-color: #833471;
     border-style: solid;
     background-color: #FDEFEF;
-    margin-right: 10px;
+    margin-right: 2px;
     margin-top: 10px;
    
 }
@@ -2043,17 +1978,26 @@ text-align: justify;
 
     width:280px;
     padding:80px 60px 0px 0px;
-    margin-right: -24px;
+    margin-right: -14px;
 }
 
 .img1-helth17{
 
     width:240px;
     padding:35px 70px 35px 0px;
+    margin-right: 25px;
 }
 
+.margin-helth4 {
+    margin: -25px 20px 0 0;
+}
 
+.li-style-h16{
 
+    padding-bottom: 20px;
+    margin-right: 40px;
+    list-style: circle;
+}
 /* helth18-19 */
 .img-helth18{
     width:260px;
@@ -2070,13 +2014,13 @@ text-align: justify;
     border-style:hidden solid hidden hidden; 
     border-width: 6px;
     border-color:#EA2027 ;
-    margin: 90px 10px 40px 0px; 
-    padding: 0px 30px 0 32px ;
+    margin: 146px 10px 40px 0px; 
+    padding: 0px 20px 0 20px ;
 }
 
 .section-helth19{
 
-    margin: 60px 10px 40px 18px;
+    margin: 110px 10px 40px 12px;
 
 }
 
@@ -2123,21 +2067,24 @@ text-align: justify;
 
 .btn-helth20{
 
-     margin: 40px 100px 0 0;
+    margin: 250px 0px 0 130px
 
 }
 
 .img-helth20{
 
-    width:220px;
-    margin: 0px 75px 20px 0 ;
+    width: 200px;
+    margin: 0px 0px 0px 0;
+    position: absolute;
+    top: 60rem;
+    left: 7rem;
 }
 .border-helth21{
 
-     border-style: hidden hidden solid hidden;
-     border-color: #EA8685;
-     margin: 100px 0 60px 0;
-     padding:  0 0 70px 0 ;
+    border-style: hidden hidden solid hidden;
+    border-color: #EA8685;
+    margin: 130px 0 0 0;
+    padding:  0 0 70px 0 ;
 }
 .style-bg1{
 
@@ -2150,8 +2097,8 @@ text-align: justify;
     text-align: center;
     border-radius: 36px;
     padding: 14px 20px 12px 20px;
-    margin-top: 90px;
-    margin-right: 73px;
+    margin-top: 120px;
+    margin-right: 0px;
 }
 
 .padd-helth20{
@@ -2171,13 +2118,13 @@ padding:0 14px 0 14px;
     text-align: center;
     border-radius: 36px;
     padding: 14px 20px 12px 20px;
-    margin-right: 23px;
+    margin-right: 12px;
 }
 
 .img1-helth21{
 
     width:200px;
-    margin: 0px 90px 0 0px ;
+    margin: 0px 80px 0 0px ;
 }
 
 .img2-helth21{
@@ -2196,7 +2143,8 @@ padding:0 14px 0 14px;
     text-align: center;
     border-radius: 36px;
     padding: 14px 20px 12px 20px;
-    margin-right: 45px;
+    margin-right: 30px;
+    margin-top: 40px;
     
 }
 
@@ -2214,19 +2162,23 @@ padding:0 14px 0 14px;
     text-align: center;
     border-radius: 36px;
     padding: 14px 20px 12px 20px;  
-    margin: 0px 20px 40px 0px;
+    margin: 75px 14px 0px 0px;
     font-family: Dubai;
 }
 
 .btn-helth22{
-    margin: 60px 145px 0 0;
+    margin: 0px 0px 0 133px
 }
 
 .img-helth22{
 
     width:230px;
-    margin: 20px 80px 20px 0 ;
+    margin: 20px 0px 20px 77px ;
 }
+.ul-helth20{
+    margin-left: -146px;
+}
+
 /* helth20-21-22-end */
 
 
@@ -2246,6 +2198,7 @@ padding:0 14px 0 14px;
     border-radius: .25rem;
     width: 366px;
     margin-bottom: 30px;
+    margin-left: -10px;
 }
 
 
@@ -2330,29 +2283,42 @@ padding:0 14px 0 14px;
 }
 
 
-
-
-
 .signin{
     position: absolute;
-    top:60%;
-    left: 47%;
+    top: 60%;
+    left: 65%;
     transform: translateX(-100%) translateY(-50%);
-    border:1px solid  #FF8D8D ;
+    border: 1px solid #0000000d;
     border-radius: 10px;
-    padding:60px 20px 60px 20px;
-    box-shadow: 2px 2px 2px 2px #FF8D8D;
-    margin-left: 160px;
-  
+    padding: 60px 1px 60px 0px;
+    box-shadow: 2px 2px 18px 2px #00000012;
+    margin-left: 117px;
+    width: 361px;
+    height: 621px;
 
 }
 
 
+.form {
+    padding: 71px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: -1.5rem;
+    top: 127px;
+}
 
+.imag img {
+    position: relative;
+    width: 300px;
+    right: -37px;
+    top: 14px;
+}
 
+.mar-top-footer{
+    margin-top: 440px;
 
-
-
+}
 /* footer start */
 footer{
     
